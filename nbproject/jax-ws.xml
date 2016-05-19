@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Calculadora">
+      <implementation-class>integracion.clases.ejemplo.calculadora.Calculadora</implementation-class>
+    </service>
+    <service name="NewWebServiceFromWSDL">
+      <implementation-class>integracion.clases.NewWebServiceFromWSDL</implementation-class>
+      <wsdl-url>file:/Users/ProyectoEspecialidadTeam3/NetBeansProjects/WebApplication2/src/wsdl/globalweather.asmx.xml</wsdl-url>
+      <local-wsdl-file>globalweather.asmx.xml.wsdl</local-wsdl-file>
+      <service-name>GlobalWeather</service-name>
+      <port-name>GlobalWeatherSoap</port-name>
+      <package-name>net.webservicex</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <use-provider>false</use-provider>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </service>
+    <service name="Paises">
+      <implementation-class>integracion.clases.ejemplo.paises.Paises</implementation-class>
+    </service>
+    <service name="NewWebServiceFromWSDL_1">
+      <implementation-class>tarea3.airport.NewWebServiceFromWSDL</implementation-class>
+      <wsdl-url>file:/Users/ProyectoEspecialidadTeam3/NetBeansProjects/WebApplication2/src/wsdl/airport.asmx</wsdl-url>
+      <local-wsdl-file>airport.asmx.wsdl</local-wsdl-file>
+      <service-name>airport</service-name>
+      <port-name>airportSoap</port-name>
+      <package-name>net.webservicex</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <use-provider>false</use-provider>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>true</jsr109>
+</jax-ws>
